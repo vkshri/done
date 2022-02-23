@@ -1,0 +1,73 @@
+
+body {font-family: Arial, Helvetica, sans-serif;}
+
+.navbar {
+  background-image: url(header-background-gold.50f1dc5b.jpg);
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+  height: 100px;
+}
+
+.navbar a {
+  float: right;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+
+.id a {
+  background-color: black;
+  border-radius: 20px;
+  margin-left: 20px;
+  float: right;
+  margin-top: 43px;
+  
+}
+
+.icon{
+	width: 200px;
+	float: left;
+	height: 70px;
+}
+
+.logoooo{
+	color: black;
+	font-size: 35px;
+	font-family: Arial;
+	padding-left: 20px;
+	float: left;
+  margin-top: 20px;
+	
+}
+
+.vkss {
+  background-color: black;
+  border-radius: 20px;
+  margin-left: 200px;
+
+  margin-top: 43px;
+  
+  
+}
+
+
+
+
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+

@@ -1,0 +1,19 @@
+.abcdefgh{
+    width: 100%;
+    height: 100px;
+    background-color: grey;
+    justify-content: center;
+    display: flex;
+    background-image: url(header-background-gold.50f1dc5b.jpg);
+   /* margin-top: 20px; */
+   margin-bottom: 25px;
+}
+
+.abcdefghi{
+    width: 36%;
+    height: 30px;
+    background-color: white;
+    border-radius: 10px;
+
+
+}

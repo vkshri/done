@@ -1,0 +1,34 @@
+
+.ab{
+    width: 80%;
+    height: 1000px;
+    background-color: white;
+    margin-left: 120px;
+}
+.abc{
+    margin-left: 60px;
+    padding-top: 60px;
+}
+
+.abcd{
+width: 75%;
+/*display: inline-block; */
+display: flex;
+justify-content: left;
+overflow-x: auto;
+
+}
+/*.abcd::-webkit-scrollbar{
+    visibility: hidden;
+}*/
+
+
+.abcde{
+    margin-left: 60px;
+    font-size: 18px;
+    color: grey;
+    width: 630px;
+    float: left;
+    position: relative;
+
+}

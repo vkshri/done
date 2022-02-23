@@ -1,0 +1,99 @@
+
+body {font-family: Arial, Helvetica, sans-serif;}
+
+.navr25 {
+  width: 100%;
+  background-color:white;
+  overflow: auto;
+  height: 35px;
+  background-color: white;
+  margin-top: 45px;
+}
+
+.nav25r a {
+  float: right;
+  padding: 12px;
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+.navr25 a:hover {
+  background-color:white;
+}
+
+.active25 {
+  background-color:rgba(172, 132, 23, 0.924);
+  border-radius: 35px;
+  float: right;
+}
+
+.icon25{
+	width: 200px;
+	float: left;
+	height:20px;
+}
+
+.logo25{
+	color: black;
+  width: 100px;
+	font-size: 15px;
+	font-family: Arial;
+	padding-left: 20px;
+	float: left;
+   /* margin-top: 17px; */
+	
+}
+
+.vkss25 {
+  background-color: black;
+  border-radius: 20px;
+  margin-left: 200px;
+
+  margin-top: 43px;
+  
+  
+}
+
+
+   .logo25::before {
+        content: "";
+        display: block;
+        width: 250px;
+        height: 1px;
+        background: #000000;
+        right: 0;
+        position: absolute;
+        margin-right: 865px;
+        margin-top: 17px;
+        display: inline-block;
+      }
+
+      .logoo25::after {
+        content: "";
+        display: block;
+        width: 250px;
+        height: 1px;
+        background: #000000;
+        right: 0;
+        position: absolute;
+        margin-right: 320px;
+        margin-top: 17px;
+        display: inline-block;
+      }
+      
+    
+
+
+
+
+
+@media screen and (max-width: 500px) {
+  .navbar25 a {
+    float: none;
+    display: block;
+  }
+}
+
